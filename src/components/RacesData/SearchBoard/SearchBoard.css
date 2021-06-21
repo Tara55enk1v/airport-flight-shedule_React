@@ -1,0 +1,95 @@
+.dataArea {
+    background-color: #F0F0F0;
+    min-height: 500px;
+    padding-bottom: 30px;
+}
+.searchArea{
+    width: 70%;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    position: relative;
+    top: -35px;
+}
+.searchArea div{
+    width: 60px;
+    height: 65%;
+    border-right-style: solid;
+    border-right-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchArea div img{
+    width: 24px;
+    height: 24px;
+}
+.searchArea input{
+    width: 55%;
+    height: 55%;
+    border: none;
+    margin: 0 40px;
+    padding-left: 20px;
+}
+.searchArea input:focus{
+    outline-color: #2D9CDB;
+}
+.searchArea button{
+    width: 170px;
+    height: 50px;
+    border: 1px solid #2D9CDB;
+    border-radius: 3px;
+    background-color: #2D9CDB;
+    color: #FFFFFF;
+}
+.direction{
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+}
+.direction button{
+    width: 170px;
+    height: 30px;
+    display: block;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+}
+.direction button:focus{
+    border-bottom: 1px solid #2D9CDB;
+}
+.flightsHeaders{
+    width: 69%;
+    margin: 0 auto;
+    color: #8C8C8C;
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 15px;
+}
+.flightsHeaders div{
+    width: 20%;
+    text-align: center;
+}
+.showFlightsData{
+    width: 70%;
+    height: 70px;
+    border-radius: 3px;
+    background-color: #FFFFFF;
+    color: black;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 600;
+}
+.showFlightsData div{
+    width: 20%;
+    text-align: center;
+}

@@ -1,0 +1,6 @@
+.header{
+    width: inherit;
+    height: inherit;
+    background-image: url('./img/Header.png');
+    background-size: cover;
+}
